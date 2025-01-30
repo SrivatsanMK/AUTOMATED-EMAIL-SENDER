@@ -33,7 +33,7 @@ venv\Scripts\activate     # Windows
 ```bash
 pip install openpyxl
 ```
-
+---
 ## 🔸 Setup Gmail SMTP Authenthication
 
 Create an App Password for security:
@@ -43,7 +43,7 @@ Create an App Password for security:
 EMAIL=your_email@gmail.com
 PASSWORD=your_app_password
 ```
-
+---
 ## 🔸 Download the excel file I prepared for you: 
 [Excel_DataSource](./email_sender_datasource.xlsx)
 
@@ -56,8 +56,18 @@ PASSWORD=your_app_password
 
 ![emailsender github](https://github.com/user-attachments/assets/a4407521-6fb2-4c22-8fcf-94eff23bdba8)
 
+---
+## 🔸 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss your ideas.
 
+## 🔸 LICENSE
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
+---
+## 👤 Author
+👤 N.B. Ryttel
+📧 [Email me](zerobughero@gmail.com)
+🔗 [Github](https://github.com/ninryt)
 
 
 
