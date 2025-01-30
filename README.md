@@ -3,6 +3,12 @@ This Python project automates the process of sending **personalized emails** usi
 
 ---
 
+![portfolio emailsender github (1)](https://github.com/user-attachments/assets/6e2395e5-6c1d-4033-b7d4-32b49a8c6878)
+
+
+
+---
+
 ## 🔸 Features
 ✅ Reads **recipient email, name, and other details** from an Excel file  
 ✅ Sends **customized emails** based on recipient data  
