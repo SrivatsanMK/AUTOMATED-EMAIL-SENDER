@@ -36,7 +36,7 @@ pip install openpyxl
 
 ## 🔸 Setup Gmail SMTP Authenthication
 
-Ccreate an App Password for security:
+Create an App Password for security:
 [click here](https://accounts.google.com/v3/signin/challenge/pwd?TL=AO-GBTcH6IznI2l9eCaASOBU-tZ-Jp_8lwfpiPzNJUREDQueVW6ULyuU1xBq-Qz5&cid=2&continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&ifkv=AVdkyDmsdu2m1LxZCZHnP6N4o43AxziCFbhEeO6uGRUqj5zgUonO5AcOWApoz7-tF-6DXi03Anjy&osid=1&rart=ANgoxcfMq2NguWng04csK2FyiHftiIG7mkAQBV1k-Mue2caDW3BRezRLpw-pyghIjaVtmeWKQLWmSdu_Z8SuqwwWpJN51NFVcnYw-Zk9sxtkTrNeovVEU2U&rpbg=1&service=accountsettings) 
 
 ```
@@ -52,3 +52,15 @@ PASSWORD=your_app_password
 - Fill in the columns: Email, Last Name, First Name, Gender.
 - The script will automatically update the "Status" column to "Sent" after sending emails, don't fill in the column "Sent".
 - Don't fill in the sheet "Sent Emails Data", the sheet will automatically update once your emails will be sent.
+
+
+![emailsender github](https://github.com/user-attachments/assets/a4407521-6fb2-4c22-8fcf-94eff23bdba8)
+
+
+
+
+
+
+  
+
+
