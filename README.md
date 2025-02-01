@@ -3,7 +3,8 @@ This Python project automates the process of sending personalized emails to rese
 
 ---
 
-![portfolio emailsender github (1)](https://github.com/user-attachments/assets/6e2395e5-6c1d-4033-b7d4-32b49a8c6878)
+![creamy portfolio emailsender github](https://github.com/user-attachments/assets/8cc8d821-40d8-4a2f-8cae-50d257aa3fe8)
+
 
 ---
 
@@ -67,8 +68,9 @@ PASSWORD=your_app_password
 - The script will automatically update the "Status" column to "Sent" after sending emails, don't fill in the column "Sent".
 - Don't fill in the sheet "Sent Emails Data", the sheet will automatically update once your emails will be sent.
 
+---
 
-![emailsender github](https://github.com/user-attachments/assets/a4407521-6fb2-4c22-8fcf-94eff23bdba8)
+![excel portfolio emailsender github](https://github.com/user-attachments/assets/041564af-6015-4869-ba21-3635feb72420)
 
 ---
 ## 🔸 Contributing
