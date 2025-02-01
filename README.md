@@ -1,5 +1,7 @@
 # automated-email-sender
-This Python project automates the process of sending **personalized emails** to customers using Gmail and an Excel file as a data source and database. It reads recipient details, personalizes the email content, and logs sent messages while ensuring no duplicates.
+This Python project automates the process of sending personalized emails to research participants using Gmail and an Excel file as both data source and database. Originally developed to invite participants to surveys or interviews, it eliminates reliance on the CRM team (which used Mailchimp or other third-party platforms), granting Team FTI full control over scheduling, tracking sent messages, and logging responses. It reads recipient details, personalizes email content, and ensures no duplicate sends.
+
+Once messages are sent, the tool automatically updates Excel and subsequently transfers the data to SQL, expanding the research database with a consolidated record of participant interactions. By providing comprehensive statistics on when recipients were contacted and if/how they responded, the team can measure the success of recruitment efforts and refine future outreach strategies.
 
 ---
 
