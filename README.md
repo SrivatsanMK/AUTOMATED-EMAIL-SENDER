@@ -1,10 +1,8 @@
 # automated-email-sender
-This Python project automates the process of sending personalized emails to research participants using Gmail and an Excel file as both data source and database. I originally developed it to invite participants to surveys or interviews, as we depended on the CRM team for email invitations (which used Mailchimp or other third-party platforms). By implementing this solution, the **FTI Group Research Team** that I led gained full control over scheduling, tracking sent messages, and logging responses—resulting in significant time savings and independence from paid messaging services. The script reads recipient details, personalizes email content, and ensures no duplicate sends.
 
----
+This Python project automates the process of sending personalized emails to research participants using Gmail and an Excel file as both data source and database. I originally developed it to invite participants to surveys or interviews, as we depended on the CRM team for email invitations (which used Mailchimp or other third-party platforms). By implementing this solution, the ![FTI Group Research Team](https://img.shields.io/badge/FTI%20Group-Research%20Team-FF8C00) that I led gained full control over scheduling, tracking sent messages, and logging responses—resulting in significant time savings and independence from paid messaging services. The script reads recipient details, personalizes email content, and ensures no duplicate sends.
 
 ![creamy portfolio emailsender github](https://github.com/user-attachments/assets/8cc8d821-40d8-4a2f-8cae-50d257aa3fe8)
-
 
 ---
 
