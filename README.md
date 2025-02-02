@@ -1,12 +1,18 @@
 # automated-email-sender
 
-This Python project automates the process of sending personalized emails to research participants using Gmail and an Excel file as both data source and database. I originally developed it to invite participants to surveys or interviews, as we depended on the CRM team for email invitations (which used Mailchimp or other third-party platforms). By implementing this solution, the ![FTI Group Research Team](https://img.shields.io/badge/FTI%20Group-Research%20Team-FF8C00)  that I led gained full control over scheduling, tracking sent messages, and logging responses—resulting in significant time savings and independence from paid messaging services. The script reads recipient details, personalizes email content, and ensures no duplicate sends.
-![creamy portfolio emailsender github](https://github.com/user-attachments/assets/44f7fba6-54f4-41b0-bb6e-22969b04aac2)
+This ![Python](https://img.shields.io/badge/Python-006400)
+project automates the process of sending personalized emails to research participants using Gmail and an Excel file as both data source and database. I originally developed it to invite participants to surveys or interviews, as we depended on the CRM team for email invitations (which used Mailchimp or other third-party platforms). By implementing this solution, the ![FTI Group Research Team](https://img.shields.io/badge/FTI%20Group-Research%20Team-FF8C00)  that I led gained full control over scheduling, tracking sent messages, and logging responses—resulting in significant time savings and independence from paid messaging services. The script reads recipient details, personalizes email content, and ensures no duplicate sends.
+
+---
+
+![creamy portfolio emailsender github](https://github.com/user-attachments/assets/6fcc8d4f-ea74-4b10-a4bf-35a29cf28c44)
+
 
 
 ---
 
-Once messages are sent, the tool automatically updates Excel and subsequently transfers the data to SQL, expanding the research database with a consolidated record of participant interactions. By providing comprehensive statistics on when recipients were contacted and if/how they responded, the team can measure the success of recruitment efforts and refine future outreach strategies.
+Once messages are sent, the tool automatically updates Excel and subsequently transfers the data to ![SQL Badge](https://img.shields.io/badge/SQL-FFD700)
+, expanding the research database with a consolidated record of participant interactions. By providing comprehensive statistics on when recipients were contacted and if/how they responded, the team can measure the success of recruitment efforts and refine future outreach strategies.
 
 ---
 
@@ -67,8 +73,8 @@ PASSWORD=your_app_password
 - Don't fill in the sheet "Sent Emails Data", the sheet will automatically update once your emails will be sent.
 
 ---
+![excel portfolio emailsender github](https://github.com/user-attachments/assets/d268a63f-90af-4202-a373-9bb87acca345)
 
-![excel portfolio emailsender github](https://github.com/user-attachments/assets/041564af-6015-4869-ba21-3635feb72420)
 
 ---
 ## 🔸 Contributing
