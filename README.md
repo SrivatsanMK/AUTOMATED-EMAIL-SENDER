@@ -35,7 +35,7 @@ Once messages are sent, the tool automatically updates Excel and subsequently tr
 
 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/ninryt/automated-email-sender
+git clone https://github.com/SrivatsanMK/AUTOMATED-EMAIL-SENDER.git
 .git
 cd automated-email-sender
 
