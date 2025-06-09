@@ -4,8 +4,8 @@ import openpyxl
 import datetime
 
 # Gmail Configuration
-EMAIL = "mksrivatsan53@gmail.com"  # Your sender email
-PASSWORD = "wwawtdzvusynrvdg"  # Your generated app password
+EMAIL = "***********"  # Your sender email
+PASSWORD = "***************"  # Your generated app password
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
