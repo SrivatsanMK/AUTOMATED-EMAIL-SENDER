@@ -1,4 +1,4 @@
-# automated-email-campaign-sender
+# Automated-Email-Sender
 
 This project automates the process of sending personalized emails/ campaigns to automate research workflows and support teams with actionable data under budget constraints. I originally developed it to invite participants to surveys or interviews, as we depended on the CRM team for email invitations (which used Mailchimp or other third-party platforms). By implementing this solution, the ![FTI Group Research Team](https://img.shields.io/badge/FTI%20Group-Research%20Team-FF8C00)  that I led gained full control over scheduling, tracking sent messages, and logging responses—resulting in significant time savings and independence from paid messaging services. The script reads recipient details, personalizes email content, and ensures no duplicate sends.
 
