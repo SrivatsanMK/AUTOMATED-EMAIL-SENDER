@@ -4,8 +4,8 @@ import openpyxl
 import datetime
 
 # Gmail Configuration
-EMAIL = "Youremail"  # Your sender email
-PASSWORD = "Password"  # Your generated app password
+EMAIL = "mksrivatsan53@gmail.com"  # Your sender email
+PASSWORD = "wwawtdzvusynrvdg"  # Your generated app password
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
@@ -18,28 +18,25 @@ def send_email(recipient, first_name, last_name, gender):
 
     # Determine salutation based on gender
     if gender == "F":
-        salutation = f"Sehr geehrte Frau {last_name}"
+        salutation = f"Hi mam {first_name} {last_name}"
     elif gender == "M":
-        salutation = f"Sehr geehrter Herr {last_name}"
+        salutation = f"Hi sir {first_name} {last_name}"
     else:
-        salutation = f"Guten Tag {first_name} {last_name}"
+        salutation = f"Hi {first_name} {last_name}"
 
     # Email content
     email_content = f"""{salutation},
 
-Wir möchten Sie herzlich einladen, an unserer Umfrage teilzunehmen. 
-Ihre Meinung ist uns sehr wichtig!
-Hier finden Sie den Link zu der Umfrage: [Link to Survey]
+THE AUTOMATED EMAIL SENDER SEND YOU THIS MAIL FOR TESTING
 
-Mit freundlichen Grüßen,  
-Team Zerobughero
+THANK YOU ☺
 """
 
     # Create the email message
     msg = EmailMessage()
     msg['From'] = EMAIL
     msg['To'] = recipient
-    msg['Subject'] = "Einladung zur Umfrage"
+    msg['Subject'] = "Testing"
     msg.set_content(email_content)
 
     # Send the email
@@ -57,7 +54,7 @@ Team Zerobughero
 
 # Function to send emails and update Excel
 def send_emails_from_excel():
-    file_name = "email_sender_data.xlsx"  # Ensure this file exists
+    file_name = "email_sender_datasource.xlsx"  # Ensure this file exists
     
     try:
         wb = openpyxl.load_workbook(file_name)
